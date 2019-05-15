@@ -25,17 +25,16 @@
     <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">@*android:string/config_mainBuiltInDisplayCutout</string>
 
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">28dp</dimen>
-    <dimen name="status_bar_height_landscape">28dp</dimen>
-    <dimen name="rounded_corner_radius_top">60px</dimen>
+    <dimen name="status_bar_height_portrait">80px</dimen>
+    <dimen name="status_bar_height_landscape">80px</dimen>
 
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">4</integer>
     <integer name="config_maxVisibleNotificationIconsWhenDark">5</integer>
 
     <!-- Height of area above QQS where battery/time go (equal to status bar height if > 48dp) -->
-    <dimen name="quick_qs_offset_height">28dp</dimen>
+    <dimen name="quick_qs_offset_height">80px</dimen>
     <!-- Total height of QQS (quick_qs_offset_height + 128) -->
-    <dimen name="quick_qs_total_height">156dp</dimen>
+    <dimen name="quick_qs_total_height">208px</dimen>
 
 </resources>
