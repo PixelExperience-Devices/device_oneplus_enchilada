@@ -22,9 +22,6 @@ DEVICE_PATH := device/oneplus/enchilada
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
-# Kernel
-TARGET_KERNEL_CONFIG := enchilada_defconfig
-
 # Vendor init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_enchilada
 TARGET_RECOVERY_DEVICE_MODULES := libinit_enchilada
