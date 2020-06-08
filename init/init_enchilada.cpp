@@ -57,7 +57,7 @@ void vendor_load_properties()
 {
     // fingerprint
     property_override("ro.build.description", "OnePlus/OnePlus6/OnePlus6:8.1.0/OPM1.171019.011/06140300:user/release-keys");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys");
 
     // privapp permisison control
     property_override("ro.control_privapp_permissions", "log");
