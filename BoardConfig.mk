@@ -19,6 +19,9 @@
 
 DEVICE_PATH := device/oneplus/enchilada
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := OnePlus6,enchilada
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
